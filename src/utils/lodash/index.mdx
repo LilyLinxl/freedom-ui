@@ -1,0 +1,35 @@
+---
+name: lodash
+route: /utils/lodash
+order: 4
+sidebar: true
+menu: 工具方法
+---
+
+import { Playground } from 'docz'
+import chunk from './chunk'
+
+## chunk
+
+> 将一个数组分割成指定元素个数的二维数组
+
+### 代码演示
+
+#### 将一个数组分割成指定元素个数的二维数组
+
+<Playground>
+  {
+    () => {
+      const arr = [1,2,3,4,5]
+      const arr1 = []
+      const chunkArr = chunk(arr, 2)
+      const chunkArr1 = chunk(arr1, 2)
+      return (
+        <div>
+          {JSON.stringify(chunkArr)}<br />
+          {JSON.stringify(chunkArr1)}
+        </div>
+      )
+    }
+  }
+</Playground>
