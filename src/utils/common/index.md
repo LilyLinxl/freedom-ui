@@ -2,7 +2,7 @@
 title: 通用工具方法
 group:
   title: 工具方法
-  path: /common
+  path: /utils
 ---
 
 # Common 工具方法
